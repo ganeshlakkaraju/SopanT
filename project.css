@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+
+*				{ margin:0; padding:0; border:0; outline:none}
+img				{ max-width:100%;}
+ul,ol			{ list-style:none}
+a				{ text-decoration:none}
+body			{}
+p				{}
+span			{}
+h1				{}
+h2				{}
+h3				{}
+h4				{}
+h5				{}
+h6				{}
+	
+.clear			{ clear:both}
+.midwrap		{ margin:auto; width:1004px}
+
+.main1			{ border-top:3px solid black}
+.logo			{ float:left; margin-left:30px; padding:5px}
+.menu ul		{margin-top:40px; float:right; margin-right:150px;}
+.menu ul li		{ float:left; padding:15px;}
+.menu a			{ text-transform:uppercase; font-size:16px; color:#666; transition:0.4s}
+.menu a:hover	{ background: radial-gradient(gray,black); color:#FFF; padding:10px}
+
+.main2			{ background: radial-gradient(gray,black);}
+.txt			{ width:35%; color:#FFF; float:left;  
+				  margin:100px 0px 0px 90px; text-align:center }
+.txt h1			{ font-size:42px}
+.txt p			{ font-size:22px;}
+.img			{ float:right; margin-right:45px}
+.img:hover		{ transform:scale(1.1) }
+.txt:hover		{ transform:scale(1.1) }
+
+.main3			{ text-align:center; margin:60px 0px}
+.main3 b		{ font-size:20px; }
+.c				{text-align:center; margin:60px}	
+.c p			{ color:#FFF; background: radial-gradient(gray,black); padding:20px;
+				  cursor:pointer }
+.c:hover		{}
+
+.h				{ text-align:center; margin:60px;}
+.h b			{ font-size:36px; border-bottom:3px solid #06C; margin:30px}
+
+
+.main4			{ text-align:center; margin-top:30px}
+.main			{ width:21%; float:left; margin:30px 20px;transition: transform 3s;}
+.main img		{ padding:10px}
+.main h3		{ font-size:16px; padding:10px}
+.main p			{ font-size:16px; font-weight:300; margin:20px 0px}
+.main button 	{ margin:10px; padding:10px; background-color:#09F; color:#fff; cursor:pointer}
+.main:hover		{ background: radial-gradient(gray,black);transform:rotate(360deg); cursor:pointer }
+    				
+.foot			{ padding:20px; margin-top:50px; background: radial-gradient(gray,black)}
+.main5			{ width:45%; float:left} 
+.main5 h1		{ color:#FFF; border-bottom:2px solid #FFF}
+.main5 li		{  padding:6px 0px; transition:3s}
+.main5 a 		{ color:#FFF; font-size:18px;} 
+.main5 li:hover { background-color:#09F;} 
+
+.main6			{ float:left; width:40%; margin-left:200px}
+.main6 h1		{ color:#FFF; border-bottom:2px solid #FFF; margin-bottom:30px}	
+.main6 b		{ color:#FFF; font-size:18px}
+.main6 section	{ padding:4px; transition:3s }
+.main6 section:hover { background-color:#09F; cursor:pointer}			
